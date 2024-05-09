@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #031e4f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 25px 20px 60px 20px;
+  border-radius: 12px;
+  position: relative;
+  width: 40%;
+}
+
+.container .head {
+  position: relative;
+  color: #1b50b1;
+  margin-bottom: 30px;
+}
+
+.container .head::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #031e4f;
+  bottom: -10px;
+}
+
+.answers {
+  margin-top: 25px;
+}
+
+.answers ul {
+  list-style: none;
+}
+
+.answers ul li {
+  padding: 10px 15px;
+  border: 2px solid #ccc;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.answers ul li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+#btn,
+#btnAgain {
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  background-color: #031e4f;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 150px;
+  padding: 10px;
+}
+
+.answers ul li:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
+
+.answers ul li.true {
+  background-color: #67ea67;
+}
+
+.answers ul li.false {
+  background-color: #ed1e1e;
+}
+
+#btnAgain {
+  display: none;
+}

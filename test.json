@@ -1,0 +1,42 @@
+[
+  {
+    "question": "1.Who is the current goalkeeper for Real Madrid?",
+    "options": [
+      "Thibaut Courtois",
+      "Keylor Navas",
+      "Iker Casillas",
+      "Alphonse Areola"
+    ],
+    "correct_answer": "Thibaut Courtois"
+  },
+  {
+    "question": "2.Who is the all-time leading goal scorer for Real Madrid?",
+    "options": [
+      "Raúl González",
+      "Karim Benzema",
+      "Hugo Sánchez",
+      "Cristiano Ronaldo"
+    ],
+    "correct_answer": "Cristiano Ronaldo"
+  },
+  {
+    "question": "3.Who is the current coach of Real Madrid?",
+    "options": [
+      "Carlo Ancelotti",
+      "Joaquín Caparrós",
+      "José Mourinho",
+      "Zinedine Zidane"
+    ],
+    "correct_answer": "Carlo Ancelotti"
+  },
+  {
+    "question": "4.Which player is considered a Real Madrid icon and played for the club for a long period before retiring?",
+    "options": [
+      "Emilio Butragueño",
+      "Raúl González",
+      "Iker Casillas",
+      "Fernando Hierro"
+    ],
+    "correct_answer": "Raúl González"
+  }
+]
